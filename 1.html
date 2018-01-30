@@ -1,0 +1,175 @@
+<html>
+<head>
+<style type="text/css">
+body{font-family:Arial,Helvetica,sans-serif;}
+.container{
+     width:800px;
+	 margin:0 auto;}
+body,div,h1,h2,h3,h4,h5,h6,p,ul,img{margin:0px; padding:0px }
+#content h2{ 
+    font-size:36px;
+	color:#015878;
+	padding-top:25px;
+	}
+#content h3{ 
+    font-size:29px;
+	color:#015878;
+	padding-top:20px;
+	padding-bottom:20px;
+	}		
+#content h4{ 
+    font-size:18px;
+	color:black;
+	font-weight:normal;
+	}		
+#content p{ 
+    font-size:14px;
+	color:black;
+	padding-top:20px;
+	text-align:justify;
+	}	
+#content small{ 
+    font-size:12px;
+	color:#373737;
+	}	
+#content a{ 
+    color:#0f6c8d;
+	font-weight:bolf;
+	text-decoration:none;
+	}	
+body{
+    font-family:Arial,Helvetica,sans-serif;
+	}		
+#content{
+    width:510px;
+	float:left;
+	}	
+#sidebar{
+    float:left;
+	}
+#sidebar{
+    float;left;
+	margin-left:60px;
+	margin-top:50px;
+	background:#d4d6d3;
+	border:1px solid #c7c7c7;
+	padding:10px 10px 30px 10px;
+	}
+#sidebar{
+    font-size:15px;
+	colour:blue;
+	}
+ul#subscribe li{
+    padding-bottom:5px;
+	padding-left:35px;
+	}
+ul#subscribe li a{
+    font-size:18px;
+	}
+background:#d4dd6d3;
+border:1px solid #BEBDBD;
+padding:15px;
+#top-nav{margin:0 auto;padding:0px 0 0;height:37px;float:right;}
+#top-nav ul{list-style:none;padding:0;height:37px;float:left;}
+#top-nav li{margin:0;padding:0 0 0 8px;float:left;}
+#top-nav li a{display:block;margin:0;padding:8px 20px;color:red;text-decoration:none;}
+#top-nav ul li.active a,#top-nav ul li a:hover{color:#d3d3f9;}
+#footer{background:#eee;}
+#footer-inner{background-color:black;color:white;clear:both;text-align:center;padding:5px;}
+#footer a{color:blue;text-decoration:none;}
+.clr{clear:both;padding:0;margin:0;width:100%font-size:0px;line-height:0px;}
+</style>
+<title>Home</title>
+</head>
+<body background=image/katsu2.jpg >
+<div id="main">
+<div class="container">
+<div id="header">
+<div id="logo">
+<h1 style="color:red;margin-left:30px;">Tanoshi Resturant</h1>
+</div>
+</div>
+<div id="content">
+<h2>Welcome to the Tanoshi...</h2></br>
+<div id="top-nav">
+<ul>
+<li><a href="1.html"><b>Home</b></a><li>
+<li><a href="2.html"><b>About</b></a></li>
+<li><a href="3.html"><b>Galery</b></a></li>
+<li><a href="4.html"><b>Menu</b></a></li>
+<li><a href="5.html"><b>Contact us</b></a></li>
+</ul>
+</div></br>
+<marquee>Welcome to "<b>Tanoshi</b>". Enjoy the true essence of Japanese with 'Tanoshi'.</marquee></br></br>
+<div>
+<h5>How aboout having a nice meal with a  glorious  view of a traditional Japanese garden?</h5> 
+<h5>'Tanoshi' is the place. Enjoy with delicious meals. ;-)</h5></br></br>
+</div>
+
+<div>
+<img class="mySlides" src="image/girl.jpg" style="width:350px" style="height:10px">
+<img class="mySlides" src="image/sakura.jpg" style="width:350px" style="height:10px">
+<img class="mySlides" src="image/garden.jpg" style="width:350px" style="height:10px">
+<img class="mySlides" src="image/restu.jpg" style="width:350px" style="height:10px">
+<img class="mySlides" src="image/gate.jpg" style="width:350px" style="height:10px">
+<img class="mySlides" src="image/sushi2.jpg" style="width:350px" style="height:10px">
+<img class="mySlides" src="image/takoyaki.jpg" style="width:350px" style="height:10px">
+<img class="mySlides" src="image/tea.jpg" style="width:350px" style="height:10px">
+<img class="mySlides" src="image/s.jpg" style="width:350px" style="height:10px">
+<img class="mySlides" src="image/okonomiyaki.jpg" style="width:350px" style="height:10px">
+<img class="mySlides" src="image/katsu.jpg" style="width:350px" style="height:10px">
+<img class="mySlides" src="image/kare raisu.jpg" style="width:350px" style="height:10px">
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</div>
+</div>
+
+<div id="sidebar">
+<div id="Services"> 
+<h2>We are open @...</h2></br>
+<pre><b>Monday</b>    8.00 a.m- 11.00 p.m
+<b>Tuesday</b>   8.00 a.m- 11.00 p.m
+<b>Wednesday</b> 8.00 a.m- 11.00 p.m
+<b>Thursday</b>  8.00 a.m- 11.00 p.m
+<b>Friday</b>    8.00 a.m- 11.00 p.m
+<b>Saterday</b>  9.00 a.m- 11.00 p.m
+<b>Sunday</b>    9.00 a.m- 11.00 p.m</pre>
+
+</div>
+<div id="hotline">
+<h2>Call Us...</h2></br>
+<pre>0372255676
+0372254344
+0724325454</pre>
+</div>
+</div>
+<div style="clear:both"></div>
+</div>
+</div>
+</br></br></br>
+<footer id="footer">
+<div id="footer-inner">
+<p>Copyright @ 2017 Tanoshi Resturant<br/>
+All Rights Reserved</p>
+<div class="clr"></div>
+</div>
+</div>
+</footer>
+</div>
+</body>
+</html>
